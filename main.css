@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar navbar"
+    "titlehead titlehead"
+    "imagehead paragraphbody"
+    "paragraph paragraph"
+    "bottomnavbar bottomnavbar"
+    ;
+}
+
+
+.navbar {
+    grid-area:navbar;
+    background-color: #726e6e;
+    padding: 20px;
+    text-align: center
+   
+}
+.navbar ul {
+list-style-type: none;
+
+}
+.navbar li{
+    display: inline;
+    padding: 30px;
+    background-color: #d7e6f0;
+}
+.navbar a:hover{
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+/* NAV BAR CODE ^^ */
+
+.imagehead{
+    grid-area: imagehead;
+}
+
+.titlehead {
+    grid-area: titlehead;
+    background-color: #d7e6f0;
+    text-align: center;
+   
+}
+
+.paragraphbody {
+    grid-area: paragraphbody;
+    background-color: #73787c;
+    padding: 19px;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.paragraph{
+    grid-area: paragraph;
+    background-color: #d7e6f0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.bottomnavbar {
+    grid-area: bottomnavbar;
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
