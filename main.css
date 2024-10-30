@@ -2,6 +2,25 @@ body{
     padding: 50px;
     transition: background-color 0.5s; 
 }
+body button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+body button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 
 .container {
     display:grid;
@@ -44,6 +63,7 @@ body{
 
 .imagehead{
     grid-area: imagehead;
+    si
 }
 
 .titlehead {
@@ -60,6 +80,7 @@ body{
     font-size: 50px;
     font-style: oblique;
     font-weight: bold;
+    text-align: center;
 }
 .paragraph{
     grid-area: paragraph;
@@ -67,6 +88,7 @@ body{
     padding: 10px;
     font-size: 20px;
     font-family: cursive;
+    text-align: center;
     
 
 }
