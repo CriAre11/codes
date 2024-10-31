@@ -2,24 +2,27 @@ body{
     padding: 50px;
     transition: background-color 0.5s; 
 }
+
+/* java thingsadsasda*/
 body button {
-    background-color: #4CAF50; /* Green background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 15px 32px; /* Some padding */
-    text-align: center; /* Centered text */
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Make the button inline */
-    font-size: 16px; /* Increase font size */
-    margin: 4px 2px; /* Some margin */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 8px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth background transition */
+    background-color: #b3c8cc; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition: background-color 0.3s; 
 }
 
 body button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #c7ced1; 
 }
+/* end of jabard*/
 
 
 .container {
@@ -61,9 +64,25 @@ body button:hover {
 }
 
 
-.imagehead{
+.imagehead {
     grid-area: imagehead;
-    si
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.imagehead img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; 
+    padding: 0;
+    object-fit: cover; 
 }
 
 .titlehead {
